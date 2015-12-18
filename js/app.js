@@ -24,7 +24,7 @@ var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oc
 var baseLayers2015 = {
 	"MapBox Satellite": mbSat2015,
 	"MapBox Streets": mbStreet2015
-		//"MapQuest": mbStreet
+	//"MapQuest": mbStreet
 };
 
 //overlays
@@ -226,7 +226,7 @@ function showSideMap(fname, group, date) {
 //JQ layout plugin stuff 
 $(document).ready(function() {
 	$('body').layout({
-		applyDefaultStyles: true, //To do. Remove deafult styles and come up with a css layout
+		applyDefaultStyles: true, //To do. Remove default styles and come up with a css layout
 		east: {
 			size: 0.45,
 			maskObjects: true,
@@ -248,7 +248,6 @@ $(document).ready(function() {
 			showOverflowOnHover: false
 		},
 		onresize: function() {
-			//map2015.invalidateSize();
 			if (map2015) {
 				map2015.invalidateSize();
 			}
