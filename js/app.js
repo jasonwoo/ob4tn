@@ -1,4 +1,4 @@
-L.mapbox.accessToken = 'pk.eyJ1IjoiamFzb253b29sIiwiYSI6IlotSzdMTFEifQ.yOU5vTGHsURWuyQT-JmmIw';
+L.mapbox.accessToken = '';
 //path to tiles
 var obliquepth = 'https://coast.noaa.gov/htdata/NGS_oblique/NGSOblique_';
 
